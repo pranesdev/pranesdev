@@ -65,29 +65,81 @@ Rather than building isolated apps, I engineer end-to-end pipelines: from design
 `ESP32` `LoRa` `GPS` `KiCad` `UART` `I²C` `SPI`
 `Socket.IO` `REST APIs` `SD Logging`
 
-## 🚢 AEGIS - Smart Maritime Boundary Detection System
+## 🚢 AEGIS — Smart Maritime Boundary Detection System
 
-AEGIS is an **offline-first maritime safety ecosystem** designed to prevent small-scale fishermen in the Palk Strait from unintentionally crossing the International Maritime Boundary Line (IMBL).
+AEGIS is an **offline-first maritime safety ecosystem** designed to help small-scale fishermen in the Palk Strait avoid unintentionally crossing the **International Maritime Boundary Line (IMBL)**.
 
-### ⚙️ Architecture: Predictive Self-Healing Mesh
+### ⚙️ System Architecture
 
-AEGIS has evolved from a simple telemetry link to a **Predictive Self-Healing Mesh Network**, ensuring that safety alerts and telemetry reach the coast even in volatile marine environments.
+AEGIS connects distributed boat nodes through a **LoRa-based maritime mesh**, forwarding telemetry to a coastal gateway and cloud infrastructure for real-time monitoring.
 
 ```mermaid
 flowchart LR
-    subgraph MeshNetwork ["Maritime Mesh Network"]
-        direction LR
-        B1["🚢 Boat Node A"] <--> B2["🚢 Boat Node B"]
-        B2 <--> B3["🚢 Boat Node C"]
+
+    subgraph BOATS["🚢 BOAT NODES"]
+        direction TB
+
+        B1["Boat A<br/>ESP32 • GPS • LoRa"]
+        B2["Boat B<br/>ESP32 • GPS • LoRa"]
+        B3["Boat C<br/>ESP32 • GPS • LoRa"]
+
+        B1 <--> B2
+        B2 <--> B3
         B1 <--> B3
-        B3 --> GW["🌊 Coastal Gateway"]
     end
 
-    GW -->|"HTTPS/JSON"| CLOUD["☁️ Cloud Backend"]
-    CLOUD -->|"WebSocket"| DASH["🖥️ Authority Dashboard"]
+    MESH["📡 LoRa<br/>Self-Healing Mesh"]
 
-    B1 -.->|"Offline Geofencing"| ALERTS["🚨 Local Alerts"]
+    GW["🌊 Coastal<br/>Gateway"]
+
+    CLOUD["☁️ Cloud Backend<br/>Node.js • Socket.IO"]
+
+    DASH["🖥️ Authority Dashboard<br/>Live Map • Telemetry • Alerts"]
+
+    B1 --> MESH
+    B2 --> MESH
+    B3 --> MESH
+
+    MESH --> GW
+    GW -->|"HTTPS / JSON"| CLOUD
+    CLOUD -->|"WebSocket"| DASH
 ```
+
+### 🛡️ Edge Safety
+
+Every boat performs **local GPS geofencing and safety evaluation independently**, allowing critical alerts to continue even when network connectivity is unavailable.
+
+```text
+GPS
+ │
+ ▼
+ESP32
+ │
+ ▼
+Geofencing
+ │
+ ├── 🟢 SAFE
+ ├── 🟡 WARNING
+ └── 🔴 DANGER
+```
+
+### 🚀 Engineering Highlights
+
+- **PMA* Routing** — Modified A* routing using a multi-metric cost function incorporating RSSI, ETX, battery level, hop count, and predictive risk.
+- **Predictive Link Analysis** — EWMA and signal-slope history are used to identify deteriorating links and enable proactive route switching.
+- **Anomaly Detection** — Welford's Online Algorithm enables real-time sensor anomaly detection with Z-score based thresholds.
+- **Offline-First Geofencing** — Autonomous GPS boundary detection against an 8-point maritime boundary polyline with progressive Safe → Warning → Danger alerts.
+- **Immutable Blackbox Logging** — Local CSV telemetry logging to MicroSD provides a persistent record of boat activity and system events.
+
+<div align="center">
+
+<a href="https://github.com/pranesdev/Aegis-Maritime-System">
+<img src="https://img.shields.io/badge/Explore%20AEGIS%20Repository-181717?style=for-the-badge&logo=github" />
+</a>
+
+</div>
+
+---
 
 ### 🚀 Engineering Highlights
 
