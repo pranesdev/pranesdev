@@ -146,7 +146,7 @@ Continuous prototyping in embedded systems, focusing on low-power wireless commu
 
 ## 🏆 Milestones & Achievements
 
-- **PARALLAX '26:** 🥈 2nd Place in Hardware Track (₹8,000 Cash Prize) for AEGIS.
+- **PARALLAX '26:** 🥈 2nd Place in Hardware Track (₹8,000 Cash Prize) for Self Healing Nodal Mesh.
 - **DevFest '26:** 🏅 4th Place in the IoT Domain for AEGIS.
 - **DSC SRM IST:** 🔥 Consecutive Hackathon Winner.
 - **SRM Project Expo:** 🎓 Selected to present AEGIS to the Chairman of SRM IST.
