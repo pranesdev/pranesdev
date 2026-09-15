@@ -114,3 +114,13 @@ internet connectivity is unavailable.
 └──────────────────┘
 
 > **I don't just want to build applications. I want to build systems.**
+
+---
+
+# 🚀 Other Projects
+
+| Project | Description | Stack |
+|---|---|---|
+| 🌊 [AEGIS Frontend](https://github.com/pranesdev/aegis-frontend) | Real-time maritime monitoring dashboard | TypeScript • React |
+| 📱 [AEGIS Fisherman App](https://github.com/pranesdev/aegis-fisherman-app) | Mobile companion for the AEGIS ecosystem | Kotlin • Android |
+| 🇯🇵 [Japanese](https://github.com/pranesdev/Japanese) | Interactive Japanese learning platform | HTML • JavaScript |
