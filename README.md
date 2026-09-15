@@ -124,7 +124,7 @@ internet connectivity is unavailable.
 | 🌊 [AEGIS Frontend](https://github.com/pranesdev/aegis-frontend) | Real-time maritime monitoring dashboard | TypeScript • React |
 | 📱 [AEGIS Fisherman App](https://github.com/pranesdev/aegis-fisherman-app) | Mobile companion for the AEGIS ecosystem | Kotlin • Android |
 | 🇯🇵 [Japanese](https://github.com/pranesdev/Japanese) | Interactive Japanese learning platform | HTML • JavaScript |
-
+```
 ---
 
 # 📊 GitHub Analytics
