@@ -32,25 +32,38 @@ Rather than building isolated apps, I engineer end-to-end pipelines: from design
 
 ---
 
+---
+
 ## 🛠️ Tech Stack
 
-### 💻 Software & Cloud
+### Languages
+
 <p>
-<img src="https://skillicons.dev/icons?i=cpp,python,java,kotlin,js,ts,react,nodejs,express,tailwind,html,css,mongodb,postgres,docker,git,github" />
+<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,java,kotlin" />
 </p>
 
-### ⚡ Hardware & Embedded
+### Web & Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind,html,css" />
+</p>
+
+### Data & Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,docker,git,github" />
+</p>
+
+### Hardware & Embedded
+
 <p>
 <img src="https://skillicons.dev/icons?i=arduino,raspberrypi" />
 </p>
 
-**Deep Dive:**
-`ESP32` `LoRa` `GPS` `KiCad` `UART` `I²C` `SPI` `Socket.IO` `REST APIs` `SD Logging` `ESP-NOW`
+**Also working with**
 
-**Algorithmic Implementations:**
-`PMA* Routing` `EWMA` `Welford's Online Algorithm` `HMAC Auth` `Binary Packet Serialization`
-
----
+`ESP32` `LoRa` `GPS` `KiCad` `UART` `I²C` `SPI`
+`Socket.IO` `REST APIs` `SD Logging`
 
 ## 🚢 AEGIS - Smart Maritime Boundary Detection System
 
