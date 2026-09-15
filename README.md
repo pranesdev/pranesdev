@@ -61,4 +61,56 @@ My interests sit at the intersection of:
 `ESP32` `LoRa` `GPS` `KiCad` `UART` `I²C` `SPI`
 `Socket.IO` `REST APIs` `SD Logging`
 
+---
+
+# 🚢 Featured Project
+
+<div align="center">
+
+## AEGIS — Smart Maritime Boundary Detection System
+
+### `Hardware → LoRa → Gateway → Cloud → Dashboard`
+
+</div>
+
+AEGIS is an **offline-first maritime safety system** designed to help fishermen
+maintain awareness of restricted maritime boundaries even when conventional
+internet connectivity is unavailable.
+
+### ⚙️ Architecture
+
+```text
+┌──────────────────┐
+│      BOAT        │
+│                  │
+│ ESP32            │
+│  ├─ GPS          │
+│  ├─ LoRa         │
+│  ├─ OLED         │
+│  └─ SD Blackbox  │
+└────────┬─────────┘
+         │
+         │ 433 MHz LoRa
+         ▼
+┌──────────────────┐
+│ Coastal Gateway  │
+└────────┬─────────┘
+         │
+         │ HTTPS
+         ▼
+┌──────────────────┐
+│   Node.js API    │
+│   Socket.IO      │
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────┐
+│ React Dashboard  │
+│                  │
+│ Live Boat Map    │
+│ Boundary Zones   │
+│ Telemetry        │
+│ Alerts           │
+└──────────────────┘
+
 > **I don't just want to build applications. I want to build systems.**
