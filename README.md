@@ -124,3 +124,27 @@ internet connectivity is unavailable.
 | 🌊 [AEGIS Frontend](https://github.com/pranesdev/aegis-frontend) | Real-time maritime monitoring dashboard | TypeScript • React |
 | 📱 [AEGIS Fisherman App](https://github.com/pranesdev/aegis-fisherman-app) | Mobile companion for the AEGIS ecosystem | Kotlin • Android |
 | 🇯🇵 [Japanese](https://github.com/pranesdev/Japanese) | Interactive Japanese learning platform | HTML • JavaScript |
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="180"
+src="https://github-readme-stats.vercel.app/api?username=pranesdev&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
+
+<img height="180"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranesdev&layout=compact&theme=transparent&hide_border=true" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img
+src="https://streak-stats.demolab.com?user=pranesdev&theme=transparent&hide_border=true"
+/>
+
+</div>
