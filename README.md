@@ -28,4 +28,37 @@ My interests sit at the intersection of:
 - 🤖 Exploring **Robotics and hardware engineering**
 - 🧠 Interested in turning real-world problems into deployable systems
 
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,java,kotlin" />
+</p>
+
+### Web & Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind,html,css" />
+</p>
+
+### Data & Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,docker,git,github" />
+</p>
+
+### Hardware & Embedded
+
+<p>
+<img src="https://skillicons.dev/icons?i=arduino,raspberrypi" />
+</p>
+
+**Also working with**
+
+`ESP32` `LoRa` `GPS` `KiCad` `UART` `I²C` `SPI`
+`Socket.IO` `REST APIs` `SD Logging`
+
 > **I don't just want to build applications. I want to build systems.**
