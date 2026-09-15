@@ -1,16 +1,31 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**pranesdev/pranesdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hey, I'm Pranes Kumar B 👋
 
-Here are some ideas to get you started:
+### CSE (Big Data Analytics) • Full-Stack Developer • IoT & Embedded Systems
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p>
+Building systems that connect the physical world to the cloud.
+</p>
+
+</div>
+
+---
+
+## 🧭 About Me
+
+I'm a Computer Science & Engineering student specializing in Big Data Analytics,
+with a growing focus on **full-stack development, embedded systems and IoT**.
+
+My interests sit at the intersection of:
+
+**Software → Embedded Systems → IoT → Data → Cloud**
+
+- 🚢 Building **AEGIS**, a Smart Maritime Boundary Detection System
+- ⚡ Working with **ESP32, GPS, LoRa & embedded systems**
+- 🌐 Building full-stack applications with **React, TypeScript & Node.js**
+- 📊 Exploring **Data Science, Big Data & intelligent systems**
+- 🤖 Exploring **Robotics and hardware engineering**
+- 🧠 Interested in turning real-world problems into deployable systems
+
+> **I don't just want to build applications. I want to build systems.**
