@@ -157,12 +157,60 @@ Continuous prototyping in embedded systems, focusing on low-power wireless commu
 
 ---
 
-## 🏆 Milestones & Achievements
+## 🏆 Achievements & Recognition
 
-- **PARALLAX '26:** 🥈 2nd Place in Hardware Track (₹8,000 Cash Prize) for Self Healing Nodal Mesh.
-- **DevFest '26:** 🏅 4th Place in the IoT Domain for AEGIS.
-- **DSC SRM IST:** 🔥 Consecutive Hackathon Winner.
-- **SRM Project Expo:** 🎓 Selected to present AEGIS to the Chairman of SRM IST.
+<div align="center">
+
+### 🥇 Competition Highlights
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🥇 4th Place
+**DevFest '26**
+
+IoT Domain
+
+</td>
+
+<td align="center" width="33%">
+
+### 🥈 2nd Place
+**PARALLAX '26**
+
+Hardware Track
+
+</td>
+
+<td align="center" width="33%">
+
+### 💰 ₹8,000
+**PARALLAX '26**
+
+Cash Prize
+
+</td>
+</tr>
+</table>
+
+<br>
+
+### 🎓 Academic & Community Recognition
+
+| Recognition | Achievement |
+|:---|:---|
+| 🎓 **SRM Project Expo** | Selected to Present |
+| 🏆 **DSC SRM IST** | Consecutive Hackathon Winner |
+
+<br>
+
+### 🌟 What's Ahead
+
+**🎤 Upcoming Opportunity**  
+Meeting the **Chairman of SRM IST**
+
+</div>
 
 ---
 
