@@ -28,6 +28,42 @@ My interests sit at the intersection of:
 
 **Software → Hardware → Connectivity → Data → Cloud**
 
+---
+
+# 🏆 Achievements
+
+<div align="center">
+
+### 🥇 COMPETITION HIGHLIGHTS
+
+<img src="https://img.shields.io/badge/DevFest_'26-4th%20Place%20%7C%20IoT-181717?style=for-the-badge" />
+<img src="https://img.shields.io/badge/PARALLAX_'26-2nd%20Place%20%7C%20Hardware-181717?style=for-the-badge" />
+<img src="https://img.shields.io/badge/PARALLAX_'26-₹8%2C000%20Cash%20Prize-181717?style=for-the-badge" />
+
+<br><br>
+
+### 🎓 ACADEMIC RECOGNITION
+
+<img src="https://img.shields.io/badge/SRM%20Project%20Expo-Selected%20to%20Present-181717?style=for-the-badge" />
+
+<br><br>
+
+### 🔥 PROJECT RECOGNITION
+
+<img src="https://img.shields.io/badge/DSC%20SRM%20IST-Consecutive%20Hackathon%20Winner-181717?style=for-the-badge" />
+
+</div>
+
+---
+
+### 🌟 What's Next
+
+Currently taking my projects beyond hackathons and into larger platforms —
+with an upcoming opportunity to **meet the Chairman of SRM IST** and present
+my work.
+
+> **From building prototypes to building systems that get recognized.**
+
 - 🚢 Building **AEGIS**, a Smart Maritime Boundary Detection System
 - ⚡ Working with **ESP32, GPS, LoRa & embedded systems**
 - 🌐 Building full-stack applications with **React, TypeScript & Node.js**
