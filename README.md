@@ -88,36 +88,50 @@ internet connectivity is unavailable.
 
 ### ⚙️ System Architecture
 
-```text
-                         ┌─────────────────────┐
-                         │       BOAT          │
-                         │                     │
-                         │  ESP32              │
-                         │   ├── GPS           │
-                         │   ├── LoRa          │
-                         │   ├── OLED          │
-                         │   └── SD Blackbox   │
-                         └──────────┬──────────┘
-                                    │
-                                    │ 433 MHz LoRa
-                                    ▼
-                         ┌─────────────────────┐
-                         │   COASTAL GATEWAY   │
-                         └──────────┬──────────┘
-                                    │
-                                    │ HTTPS
-                                    ▼
-                         ┌─────────────────────┐
-                         │    NODE.JS API      │
-                         │     Socket.IO       │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │   REACT DASHBOARD   │
-                         │                     │
-                         │   • Live Boat Map   │
-                         │   • Boundary Zones  │
-                         │   • Telemetry       │
-                         │   • Alerts           │
-                         └─────────────────────┘
+### ⚙️ System Architecture
+
+```mermaid
+flowchart LR
+
+    subgraph BOAT["🚢 BOAT — Edge Device"]
+        GPS["🛰️ GPS<br/>NEO-6M"]
+        ESP["⚡ ESP32<br/>Controller"]
+        LORA["📡 LoRa<br/>433 MHz"]
+        OLED["📟 OLED<br/>Status"]
+        SD["💾 SD Card<br/>Blackbox"]
+
+        GPS --> ESP
+        ESP --> OLED
+        ESP --> SD
+        ESP --> LORA
+    end
+
+    subgraph GATEWAY["📡 COASTAL GATEWAY"]
+        RX["LoRa Receiver"]
+        GW["Gateway Service"]
+        RX --> GW
+    end
+
+    subgraph CLOUD["☁️ CLOUD"]
+        API["Node.js API"]
+        SOCKET["Socket.IO"]
+        DB[("MongoDB")]
+
+        API --> SOCKET
+        API --> DB
+    end
+
+    subgraph DASH["🖥️ AUTHORITY DASHBOARD"]
+        MAP["Live Boat Map"]
+        ZONES["Boundary Zones"]
+        TEL["Telemetry"]
+        ALERT["Alerts"]
+    end
+
+    LORA -->|"433 MHz LoRa"| RX
+    GW -->|"HTTPS"| API
+    SOCKET -->|"WebSocket"| MAP
+    SOCKET --> ZONES
+    SOCKET --> TEL
+    SOCKET --> ALERT
+```
