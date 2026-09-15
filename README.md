@@ -127,18 +127,6 @@ internet connectivity is unavailable.
 ```
 ---
 
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180"
-src="https://github-readme-stats.vercel.app/api?username=pranesdev&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
-
-<img height="180"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranesdev&layout=compact&theme=transparent&hide_border=true" />
-
-</div>
-
 <br>
 
 <div align="center">
