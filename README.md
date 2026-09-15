@@ -73,3 +73,87 @@ flowchart LR
     LORA -->|"433 MHz"| GATEWAY
     GATEWAY -->|"HTTPS"| CLOUD
     CLOUD -->|"WebSocket"| DASH
+```
+
+### ✨ Key Features
+*   **Hardware Stack:** NEO-6M GPS for position tracking, ESP32 for processing, and SX1278 LoRa for long-range telemetry.
+*   **Offline-First:** Boats can detect boundaries and record blackbox telemetry to a MicroSD card without an internet connection.
+*   **Live Dashboard:** Real-time authority dashboard mapping safe, warning, and danger zones.
+
+<div align="center">
+<a href="https://github.com/pranesdev/Aegis-Maritime-System">
+<img src="https://img.shields.io/badge/Explore%20AEGIS%20Repository-181717?style=for-the-badge&logo=github" />
+</a>
+</div>
+
+---
+
+## 🚀 Other Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🌊 AEGIS Frontend
+Real-time maritime monitoring dashboard for boat telemetry, boundary awareness and system visualization.
+*TypeScript • React*
+<br><a href="https://github.com/pranesdev/aegis-frontend">View Repository →</a>
+</td>
+
+<td width="50%">
+
+### 📱 AEGIS Fisherman App
+Mobile companion application designed as part of the AEGIS maritime safety ecosystem.
+*Kotlin • Android*
+<br><a href="https://github.com/pranesdev/aegis-fisherman-app">View Repository →</a>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🇯🇵 Japanese Learner
+Interactive platform for learning Japanese fundamentals, grammar, kana, and kanji.
+*HTML • JavaScript*
+<br><a href="https://github.com/pranesdev/Japanese">View Repository →</a>
+</td>
+
+<td width="50%">
+
+### 🔬 Hardware Experiments
+Exploring software, embedded systems, data, and hardware through continuous micro-projects and prototypes.
+*C++ • Python • IoT*
+</td>
+</tr>
+</table>
+
+---
+
+## 🏆 Milestones & Achievements
+
+*   **PARALLAX '26:** 🥈 2nd Place in Hardware Track (₹8,000 Cash Prize) for AEGIS.
+*   **DevFest '26:** 🏅 4th Place in the IoT Domain for AEGIS.
+*   **DSC SRM IST:** 🔥 Consecutive Hackathon Winner.
+*   **SRM Project Expo:** 🎓 Selected to present AEGIS, leading to an upcoming opportunity to meet the Chairman of SRM IST.
+
+---
+
+<div align="center">
+
+## ⚡ From bits to boards, from boards to the cloud.
+
+<br>
+
+<a href="mailto:praneskumarb01@gmail.com
+">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://github.com/pranesdev">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=pranesdev&label=Profile%20Views&style=flat-square" />
+
+</div>
